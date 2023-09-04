@@ -25,7 +25,7 @@ const App = () => {
           <Card
             title="Kischen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content"
-            img='../publlic/assets/shoppingcard-kirsche.jpg'
+            img='../public/assets/shoppingcard-kirsche.jpg'
           />
 
 
