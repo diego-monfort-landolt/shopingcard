@@ -1,17 +1,31 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
+import Navbar from './components/Navbar'
+import Card from './components/Card'
+import '/node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 
-function App() {
+const App = () => {
 
+  
 
 
   return (
     <>
+     <div className='header'>
+      
+      
+      <Navbar />
+     
+      
+      </div> 
 
-      <h1>Herzlich Wilkommen</h1>
+     <main>
+       <Card/>
+      
+     </main>
+      
 
-   
 
     </>
   )
