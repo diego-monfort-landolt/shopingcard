@@ -18,26 +18,26 @@ const App = () => {
           <Card
             title="Apfel"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-            img='../assets/shoppingcard-apfel.jpg'
+            img='../public/assets/shoppingcard-apfel.jpg'
 
           />
 
           <Card
             title="Kischen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content"
-            img='../assets/shoppingcard-kirsche.jpg'
+            img='../publlic/assets/shoppingcard-kirsche.jpg'
           />
 
 
           <Card
             title="Orangen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-            img='../assets/shoppingcard-orange.jpg'
+            img='../public/assets/shoppingcard-orange.jpg'
           />
           <Card
             title="Zitronen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-            img='../assets/shoppingcard-zitrone.jpg'
+            img='../public/assets/shoppingcard-zitrone.jpg'
           />
         </div>
       </main>
