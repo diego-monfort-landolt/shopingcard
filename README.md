@@ -1,3 +1,3 @@
 # React + Vite
 
-# Shopping Card
+# Shopping Card ![Alt text](image-2.png)

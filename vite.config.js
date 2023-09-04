@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://github.com/diego-monfort-landolt/shopingcard
 export default defineConfig({
-  base: './',
+  base: '/shopingcard',
   plugins: [react()],
 })
