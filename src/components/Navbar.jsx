@@ -1,4 +1,5 @@
 import React from 'react'
+import ShoppingCart from './shoppingcart'
 
 const Navbar = () => {
     return (
@@ -7,9 +8,14 @@ const Navbar = () => {
                 <nav className="navbar bg-body-tertiary">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">Navbar</a>
+                        <ShoppingCart />
                     </div>
+                   
                 </nav>
             </div>
+             
+
+            
 
         </>
     )

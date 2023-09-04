@@ -1,12 +1,38 @@
 .card-container {
-    display: flex;
-    gap: 32px;
-    padding: 0 35px 0 35px;
-      
-  }
+  display: flex;
+  gap: 32px;
+  padding: 0 35px 0 35px;
 
-  @media screen and (max-width: 768px) {
+}
+
+.shopping-carto {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.shopping-carto,
+.AiOutlineShoppingCart {
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+  margin-right: 10px;
+  text-shadow: 1px 1px 5px #0f010f;
+}
+
+.actualisiert p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+@media screen and (max-width: 768px) {
   .card-container {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
+}
