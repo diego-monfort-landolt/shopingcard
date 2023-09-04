@@ -1,0 +1,12 @@
+.card-container {
+    display: flex;
+    gap: 32px;
+    padding: 0 35px 0 35px;
+      
+  }
+
+  @media screen and (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+    }
+  }
