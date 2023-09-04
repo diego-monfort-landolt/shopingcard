@@ -3,7 +3,7 @@ import '../stylesheet/Card.css'
 
 
 
-const Card = ( {  title, description, img }) => {
+const Card = ({ title, description, img }) => {
     return (
         <>
             <div className="card" styles={'width: 10rem;'}>

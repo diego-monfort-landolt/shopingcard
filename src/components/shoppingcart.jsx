@@ -1,8 +1,8 @@
-import React, { Component, useState } from 'react'
+import React, { Component } from 'react'
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-const ShoppingCart = ( Component ) => {
- 
+const ShoppingCart = ({ amount, name, price }) => {
+    
 
     return (
         <>
@@ -10,7 +10,11 @@ const ShoppingCart = ( Component ) => {
                 <h2><AiOutlineShoppingCart /> Warenkorb</h2>
 
             </div>
-            
+            <div>
+                
+            </div>
+
+
 
 
         </>

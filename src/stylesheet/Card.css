@@ -13,3 +13,9 @@
     height: 30vh;
     object-fit: cover;
 }
+.btn {
+    box-shadow: 5px 5px 35px #000;
+}
+.btn:hover {
+    box-shadow: 10px 10px 45px #000;
+}

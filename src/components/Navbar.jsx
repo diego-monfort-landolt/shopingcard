@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import ShoppingCart from './shoppingcart'
 
 const Navbar = () => {
@@ -13,9 +13,6 @@ const Navbar = () => {
                    
                 </nav>
             </div>
-             
-
-            
 
         </>
     )

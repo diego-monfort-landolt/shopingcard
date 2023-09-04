@@ -8,49 +8,39 @@ import '/node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
 
-  
-
 
   return (
     <>
-     <div className='header'>
-      
-      
-      <Navbar />
-     
-      
-      </div> 
+      <div className='header'><Navbar /></div>
 
-     <main>
-      <div className='card-container'>
-       <Card 
-       title="Apfel" 
-       description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-       img='../assets/shoppingcard-apfel.jpg'
-       
-       />
+      <main>
+        <div className='card-container'>
+          <Card
+            title="Apfel"
+            description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
+            img='../assets/shoppingcard-apfel.jpg'
 
-       <Card 
-       title="Kischen" 
-       description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content"
-       img='../assets/shoppingcard-kirsche.jpg'
-       />
+          />
+
+          <Card
+            title="Kischen"
+            description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content"
+            img='../assets/shoppingcard-kirsche.jpg'
+          />
 
 
-       <Card 
-       title="Orangen"
-      description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-      img='../assets/shoppingcard-orange.jpg'
-       />
-       <Card 
-       title="Zitronen"
-       description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-       img='../assets/shoppingcard-apfel.jpg'
-       />
-      </div>
-     </main>
-      
-
+          <Card
+            title="Orangen"
+            description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
+            img='../assets/shoppingcard-orange.jpg'
+          />
+          <Card
+            title="Zitronen"
+            description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
+            img='../assets/shoppingcard-apfel.jpg'
+          />
+        </div>
+      </main>
 
     </>
   )
