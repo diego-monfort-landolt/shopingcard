@@ -3,6 +3,10 @@ import Navbar from './components/Navbar'
 import Card from './components/Card'
 import './stylesheet/App.css'
 import '/node_modules/bootstrap/dist/css/bootstrap.min.css'
+import apfel from './images/shoppingcard-apfel.jpg'
+import kirsche from './images/shoppingcard-kirsche.jpg'
+import orange from './images/shoppingcard-orange.jpg'
+import Zitronen from './images/shoppingcard-zitrone.jpg'
 
 
 
@@ -22,26 +26,26 @@ const App = () => {
           <Card
             title="Apfel"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-            img='../images/shoppingcard-apfel.jpg'
+            img={apfel}
 
           />
 
           <Card
             title="Kischen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content"
-            img='../images/shoppingcard-kirsche.jpg'
+            img={kirsche}
           />
 
 
           <Card
             title="Orangen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-            img='./images/shoppingcard-orange.jpg'
+            img={orange}
           />
           <Card
             title="Zitronen"
             description="Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content."
-            img='./images/shoppingcard-zitrone.jpg'
+            img={Zitronen}
           />
         </div>
       </main>
